@@ -15,7 +15,6 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/distribution/distribution/v3/registry/client/auth"
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/crane"
 	"github.com/google/go-containerregistry/pkg/name"
@@ -24,6 +23,7 @@ import (
 	"github.com/mholt/archiver/v3"
 	"k8s.io/klog/v2"
 
+	"github.com/openshift/library-go/pkg/image/registryclient/v2/auth"
 	"github.com/openshift/oc-mirror/pkg/api/v1alpha2"
 	"github.com/openshift/oc/pkg/cli/image/imagesource"
 )

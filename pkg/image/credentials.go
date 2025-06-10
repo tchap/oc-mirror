@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	dockercfg "github.com/docker/cli/cli/config"
-	"github.com/openshift/library-go/pkg/image/registryclient"
+	"github.com/openshift/library-go/pkg/image/registryclient/v2"
 	"github.com/openshift/oc/pkg/cli/image/manifest/dockercredentials"
 	"k8s.io/client-go/rest"
 )

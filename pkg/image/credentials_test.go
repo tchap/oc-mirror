@@ -3,7 +3,7 @@ package image
 import (
 	"testing"
 
-	"github.com/openshift/library-go/pkg/image/registryclient"
+	"github.com/openshift/library-go/pkg/image/registryclient/v2"
 	"github.com/stretchr/testify/require"
 )
 
